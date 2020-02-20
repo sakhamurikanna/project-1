@@ -75,6 +75,7 @@ def update_csv_file(final_result):
     This function writes the result to CSV file in the given path
     :parameter 1: takes dictionary values  
     """
+    #Writes dictionary values to CSV file
     try:
         File_path = raw_input('Enter path to store results '+default_filepath+' (default): ')
         if len(File_path) > 0 and os.path.exists(File_path):
