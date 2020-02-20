@@ -97,7 +97,7 @@ def update_csv_file(final_result):
        
 if __name__ == "__main__":
     """
-    Script starts here by taking the path to file where URLs exists. If path doest exist it will through error
+    Script starts here by taking the path to file where URLs exists. If path doest exist it will write to default location
     :parameter 1: Path to file in which URLs are present
     :Example: python py_script2.py /path/to/urls/file.txt
     """
