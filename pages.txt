@@ -1,0 +1,5 @@
+www.distrowatch.com
+www.phoronix.com,
+www.guuugle.com;
+www.google.pl;
+www.wp.pl
