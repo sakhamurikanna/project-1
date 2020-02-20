@@ -1,4 +1,17 @@
 #!/usr/bin/python
+#*************************************************************************************************************#
+#Name: Koteswararao Sakhamuri                                                                                 #
+#Date:20/02/2020                                                                                              # 
+#Purpose:This script will                                                                                     #
+#1. Read file with webpages, path to the file need to be provided as parameter (example file in attachment).  #
+#2. Check if given webpages are responding on port 433 (not ping)                                             #
+#3. Log into an output file under /var/log/stats, with information that web was available or Error when       #
+#   wasn't - script should allow to choose different path/filename.Let's assume that /var/log/stats will be   #
+#   default choice.                                                                                           #
+#4. Update csv file with statistics like:                                                                     #
+#   ADDRES,STAT                                                                                               #
+#   www.google.pl,100%                                                                                        #
+#*************************************************************************************************************#
 import sys
 import os
 import socket
